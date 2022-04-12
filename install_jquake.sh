@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# wget
+# wget https://raw.githubusercontent.com/mugimugi555/debian/main/install_jquake.sh && bash install_jquake.sh ;
 
 #-----------------------------------------------------------------------------------------------------------------------
 # install library
