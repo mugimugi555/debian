@@ -21,12 +21,13 @@ sudo mkdir /var/www/html/earthquake/ ;
 sudo chown $USER:$USER /var/www/html/earthquake/ ;
 sudo apt install -y wmctrl ;
 
-env | grep DISPLAY
+MY_DISPLAY=`env | grep DISPLAY` ;
+echo $MY_DISPLAY ;
 
 MY_SCREENSHOT_JQUAKE=$(cat<<TEXT
 #!/usr/bin/bash
 
-export DISPLAY=:0 ;
+export $MY_DISPLAY ;
 wmctrl -a "JQuake" ;
 gnome-screenshot -w -B -e none -f /var/www/html/earthquake/capture.png ;
 #convert /var/www/html/earthquake/capture.png -crop 728x480+10+45 /var/www/html/earthquake/capture_triming.png ;
