@@ -79,7 +79,7 @@ echo "samba-common samba-common/workgroup string  WORKGROUP" | sudo debconf-set-
 echo "samba-common samba-common/dhcp boolean true"           | sudo debconf-set-selections ;
 echo "samba-common samba-common/do_debconf boolean true"     | sudo debconf-set-selections ;
 sudo apt install -y wget unar gedit build-essential \
-  emacs-nox htop curl git axel samba openssh-server \
+  emacs-nox htop curl git axel samba openssh-server remmina \
   net-tools exfat-fuse exfat-utils ffmpeg ibus-mozc imagemagick lame unar vlc ;
 
 #-----------------------------------------------------------------------------------------------------------------------
