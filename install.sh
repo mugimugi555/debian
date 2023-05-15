@@ -60,7 +60,7 @@ sudo apt upgrade -y ;
 #-----------------------------------------------------------------------------------------------------------------------
 sudo echo Asia/Tokyo | sudo tee /etc/timezone ;
 sudo dpkg-reconfigure -f noninteractive tzdata ;
-LANG=C xdg-user-dirs-gtk-update ;
+LANG=C xdg-user-dirs-gtk-update --force ;
 
 #-----------------------------------------------------------------------------------------------------------------------
 # settings
