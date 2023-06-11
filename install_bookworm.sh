@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# wget
+# wget https://raw.githubusercontent.com/mugimugi555/debian/main/install_bookworm.sh && bash install_bookworm.sh ;
 
 # https://www.debugpoint.com/upgrade-debian-12-from-debian-11/
 
